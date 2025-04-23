@@ -8,13 +8,14 @@ In addition to traditional analytics, this project also explores the use of Redd
 This project implements a scalable, end-to-end data pipeline designed to extract, transform, and load (ETL) Reddit data into an Amazon Redshift data warehouse for advanced analytics and querying. The pipeline leverages a suite of modern AWS services and orchestrates each stage using Apache Airflow.
 
 The architecture is designed with the following key components:
-Extraction: Reddit data is fetched via the Reddit API using scheduled Airflow DAGs. This includes posts, comments, and metadata from specified subreddits.
 
-Storage: Raw CSV data is ingested and stored securely in Amazon S3 for durability and future reference.
-
-Transformation: AWS Glue and Amazon Athena are used to clean, structure, and normalize the data, converting it into a query-friendly format.
-
-Loading: Transformed data is loaded into Amazon Redshift, where it becomes available for downstream analytics (SQL), dashboarding, and reporting use cases.
+  - Extraction: Reddit data is fetched via the Reddit API using scheduled Airflow DAGs. This includes posts, comments, and metadata from specified subreddits.
+  
+  - Storage: Raw CSV data is ingested and stored securely in Amazon S3 for durability and future reference.
+  
+  - Transformation: AWS Glue and Amazon Athena are used to clean, structure, and normalize the data, converting it into a query-friendly format.
+  
+  - Loading: Transformed data is loaded into Amazon Redshift, where it becomes available for downstream analytics (SQL), dashboarding, and reporting use cases.
 
 This pipeline supports both historical and near-real-time data ingestion, enabling use cases such as sentiment analysis, trend tracking, marketing intelligence, and even integration with applications like Discord bots for real-time content delivery.
 
