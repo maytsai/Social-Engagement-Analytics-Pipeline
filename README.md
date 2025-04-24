@@ -1,4 +1,5 @@
-# Reddit-Data-Engineering-Project
+# Reddit-Data-Engineering-Project ![3225187_app_logo_media_popular_reddit_icon](https://github.com/user-attachments/assets/a360e742-a599-4e9b-87e8-8a081a5c2e98)
+
 As active internet users, we engage with online information daily, and in domains like retail, marketing, and promotion analytics, it is crucial to stay closely connected to customer feedback, opinions, and interests. Reddit, being one of the largest and most dynamic social platforms, serves as a rich source of consumer insights. For CPG brands and retailers, monitoring Reddit discussions can reveal valuable, real-time signals that help guide data-driven business decisions.
 
 In addition to traditional analytics, this project also explores the use of Reddit data in downstream applications such as Discord bot integration. By leveraging Reddit’s API, the pipeline fetches, processes, and stores data for features like subreddit monitoring, sentiment analysis, keyword alerts, and content aggregation. These capabilities enable real-time use cases—such as surfacing top posts, tracking community sentiment, or highlighting trending discussions within Discord—making Reddit data more accessible, interactive, and actionable for various user communities.
