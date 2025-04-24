@@ -34,25 +34,25 @@ This pipeline supports both historical and near-real-time data ingestion, enabli
 The entire workflow is orchestrated by Apache Airflow and Celery, enabling smooth coordination between pipeline components and ensuring dependable task execution. The system is containerized using Docker to support consistent, portable, and scalable deployments.
 
 # Project Structure
-Reddit-Data-Engineering-Project/
-├── config/                        # Configuration files for Airflow and other services
-│   └── config.conf.example        # Airflow configuration settings
-├── dags/                          # Directed Acyclic Graphs for Airflow workflows
-│   └── reddit_dag.py              # Main ETL DAG for Reddit data processing
-├── data/                          # Directory for storing raw and processed data
-│   ├── input/                     # Raw data files from Reddit API
-│   └── output/                    # Processed data ready for analysis
-├── etls/                          # ETL scripts for data transformation
-│   ├── reddit_etl.py              # Script to extract data from Reddit API
-│   └── aws_etl.py                 # Script to transform data using AWS Glue
-├── pipelines/                     # Pipeline definitions and orchestration logic
-│   ├── reddit_pipeline.py         # Main Reddit pipeline script
-│   └── aws_s3_pipeline.py         # Pipeline for handling data movement into S3
-├── utils/                         # Utility scripts and helper functions
-│   └── Constants.py               # AWS-related helper functions
-├── Dockerfile                     # Dockerfile for containerizing the application
-├── docker-compose.yml             # Docker Compose configuration for multi-container setup
-├── requirements.txt               # Python dependencies for the project
-└── README.md                      # Project documentation and setup instructions
+    Reddit-Data-Engineering-Project/
+    ├── config/                        # Configuration files for Airflow and other services
+    │   └── config.conf.example        # Airflow configuration settings
+    ├── dags/                          # Directed Acyclic Graphs for Airflow workflows
+    │   └── reddit_dag.py              # Main ETL DAG for Reddit data processing
+    ├── data/                          # Directory for storing raw and processed data
+    │   ├── input/                     # Raw data files from Reddit API
+    │   └── output/                    # Processed data ready for analysis
+    ├── etls/                          # ETL scripts for data transformation
+    │   ├── reddit_etl.py              # Script to extract data from Reddit API
+    │   └── aws_etl.py                 # Script to transform data using AWS Glue
+    ├── pipelines/                     # Pipeline definitions and orchestration logic
+    │   ├── reddit_pipeline.py         # Main Reddit pipeline script
+    │   └── aws_s3_pipeline.py         # Pipeline for handling data movement into S3
+    ├── utils/                         # Utility scripts and helper functions
+    │   └── Constants.py               # AWS-related helper functions
+    ├── Dockerfile                     # Dockerfile for containerizing the application
+    ├── docker-compose.yml             # Docker Compose configuration for multi-container setup
+    ├── requirements.txt               # Python dependencies for the project
+    └── README.md                      # Project documentation and setup instructions
 
 
