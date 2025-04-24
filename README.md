@@ -65,5 +65,6 @@ reddit_dag.py
 Objective: Orchestrate the ETL process.
 - Tools: Apache Airflow with Celery backend and PostgreSQL for metadata storage.
 - Process: Install required packages, configure Airflow settings, and define DAGs for task scheduling.
+![Screenshot 2025-04-24 at 5 13 12 PM](https://github.com/user-attachments/assets/8a1fef13-b5a2-4365-abd3-1b460e58b64f)
 
 
