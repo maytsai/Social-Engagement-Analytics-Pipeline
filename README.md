@@ -57,11 +57,11 @@ The entire workflow is orchestrated by Apache Airflow and Celery, enabling smoot
 
 1. Reddit API Integration
 
-- Objective: Extract data from Reddit using its API.
+- Objective: Use Reddit's API to extract data, authenticated with a Client ID and Secret Key.
 - Process: Set up a Reddit application to obtain API credentials, then use praw to fetch data from specified subreddits.
 ![redditAPI](https://github.com/user-attachments/assets/412cf7cb-7994-433c-8080-20f2b915f9a3)
 
+2. Apache Airflow Setup
 
-3.  
 
 
