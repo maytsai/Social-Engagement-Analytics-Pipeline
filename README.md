@@ -21,5 +21,4 @@ The architecture is designed with the following key components:
 This pipeline supports both historical and near-real-time data ingestion, enabling use cases such as sentiment analysis, trend tracking, marketing intelligence, and even integration with applications like Discord bots for real-time content delivery.
 
 # Data Pipeline Architecture
-
-
+![Screenshot 2025-04-24 at 3 46 22 PM](https://github.com/user-attachments/assets/ea8e9cfc-b31e-4e0e-b767-9eafa6168059)
