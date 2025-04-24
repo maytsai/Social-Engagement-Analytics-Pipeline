@@ -34,19 +34,6 @@ This pipeline supports both historical and near-real-time data ingestion, enabli
 The entire workflow is orchestrated by Apache Airflow and Celery, enabling smooth coordination between pipeline components and ensuring dependable task execution. The system is containerized using Docker to support consistent, portable, and scalable deployments.
 
 # Project Structure
-Reddit-Data-Engineering-Project/
-├── config/                 # Configuration files
-├── dags/                   # Airflow DAG definitions for scheduling
-├── data/ output/           # Output data from the pipeline
-├── etls/                   # ETL scripts (extract, transform, load)
-├── pipelines/              # End-to-end pipeline logic
-├── utils/                  # Helper utilities and functions
-├── .gitignore              # Files and directories to ignore in Git
-├── Dockerfile              # Docker container setup
-├── docker-compose.yml      # Docker services configuration
-├── requirements.txt        # Python dependencies
-└── README.md               # Project overview and documentation
-
-
+![Screenshot 2025-04-24 at 4 15 08 PM](https://github.com/user-attachments/assets/460b6c15-e303-4872-af40-f8e7252665dd)
 
 
