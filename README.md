@@ -1,4 +1,4 @@
-# Reddit-Data-Engineering-Project ![3225187_app_logo_media_popular_reddit_icon](https://github.com/user-attachments/assets/a360e742-a599-4e9b-87e8-8a081a5c2e98)
+# Reddit-Data-Engineering-Project 
 
 As active internet users, we engage with online information daily, and in domains like retail, marketing, and promotion analytics, it is crucial to stay closely connected to customer feedback, opinions, and interests. Reddit, being one of the largest and most dynamic social platforms, serves as a rich source of consumer insights. For CPG brands and retailers, monitoring Reddit discussions can reveal valuable, real-time signals that help guide data-driven business decisions.
 
