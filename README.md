@@ -55,4 +55,13 @@ The entire workflow is orchestrated by Apache Airflow and Celery, enabling smoot
     ├── requirements.txt               # Python dependencies for the project
     └── README.md                      # Project documentation and setup instructions
 
+1. Reddit API Integration
+
+- Objective: Extract data from Reddit using its API.
+- Process: Set up a Reddit application to obtain API credentials, then use praw to fetch data from specified subreddits.
+![redditAPI](https://github.com/user-attachments/assets/412cf7cb-7994-433c-8080-20f2b915f9a3)
+
+
+3.  
+
 
