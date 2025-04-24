@@ -23,13 +23,13 @@ This pipeline supports both historical and near-real-time data ingestion, enabli
 # Data Pipeline Architecture
 ![Screenshot 2025-04-24 at 3 49 05 PM](https://github.com/user-attachments/assets/995e4fc6-5aa6-4639-9434-2afde4a02602)
 
-Reddit API: Serves as the primary data source, providing access to posts, comments, and subreddit activity.
-Apache Airflow & Celery: Handle the orchestration of the data pipeline, including scheduling and distributed task execution.
-PostgreSQL: Used for intermediate data storage and managing workflow metadata.
-Amazon S3: Acts as the landing zone for raw, unprocessed data.
-AWS Glue: Powers the data catalog and executes ETL scripts to prepare data for analysis.
-Amazon Athena: Enables SQL-based querying and transformation of data directly on S3.
-Amazon Redshift: Serves as the centralized data warehouse for scalable analytics.
+  - Reddit API: Serves as the primary data source, providing access to posts, comments, and subreddit activity.
+  - Apache Airflow & Celery: Handle the orchestration of the data pipeline, including scheduling and distributed task execution.
+  - PostgreSQL: Used for intermediate data storage and managing workflow metadata.
+  - Amazon S3: Acts as the landing zone for raw, unprocessed data.
+  - AWS Glue: Powers the data catalog and executes ETL scripts to prepare data for analysis.
+  - Amazon Athena: Enables SQL-based querying and transformation of data directly on S3.
+  - Amazon Redshift: Serves as the centralized data warehouse for scalable analytics.
 
 The entire workflow is orchestrated by Apache Airflow and Celery, enabling smooth coordination between pipeline components and ensuring dependable task execution. The system is containerized using Docker to support consistent, portable, and scalable deployments.
 
