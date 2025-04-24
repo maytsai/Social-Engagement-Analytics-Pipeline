@@ -56,12 +56,14 @@ The entire workflow is orchestrated by Apache Airflow and Celery, enabling smoot
     └── README.md                      # Project documentation and setup instructions
 
 1. Reddit API Integration
-
 - Objective: Use Reddit's API to extract data, authenticated with a Client ID and Secret Key.
 - Process: Set up a Reddit application to obtain API credentials, then use praw to fetch data from specified subreddits.
 ![redditAPI](https://github.com/user-attachments/assets/412cf7cb-7994-433c-8080-20f2b915f9a3)
 
 2. Apache Airflow Setup
-
+reddit_dag.py
+Objective: Orchestrate the ETL process.
+- Tools: Apache Airflow with Celery backend and PostgreSQL for metadata storage.
+- Process: Install required packages, configure Airflow settings, and define DAGs for task scheduling.
 
 
