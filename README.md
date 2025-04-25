@@ -24,6 +24,7 @@ This pipeline supports both historical and near-real-time data ingestion, enabli
 
 1. [Data Pipeline Architecture](#data-pipeline-architecture)
 2. [Project Structure](#project-structure)
+3. [Data Source Overview](#data-source-overview)
 
 # Data Pipeline Architecture
 ![Screenshot 2025-04-24 at 3 49 05 PM](https://github.com/user-attachments/assets/995e4fc6-5aa6-4639-9434-2afde4a02602)
