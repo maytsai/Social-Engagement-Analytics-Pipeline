@@ -4,6 +4,12 @@ As active internet users, we engage with online information daily, and in domain
 
 In addition to traditional analytics, this project also explores the use of Reddit data in downstream applications such as Discord bot integration. By leveraging Reddit’s API, the pipeline fetches, processes, and stores data for features like subreddit monitoring, sentiment analysis, keyword alerts, and content aggregation. These capabilities enable real-time use cases—such as surfacing top posts, tracking community sentiment, or highlighting trending discussions within Discord—making Reddit data more accessible, interactive, and actionable for various user communities.
 
+# Table of Contents
+1. [Overview](#overview)
+2. [Data Pipeline Architecture](#data-pipeline-architecture)
+3. [Project Structure](#project-structure)
+4. [Data Source Overview](#data-source-overview)
+
 
 # Overview
 This project implements a scalable, end-to-end data pipeline designed to extract, transform, and load (ETL) Reddit data into an Amazon Redshift data warehouse for advanced analytics and querying. The pipeline leverages a suite of modern AWS services and orchestrates each stage using Apache Airflow.
@@ -20,11 +26,6 @@ The architecture is designed with the following key components:
 
 This pipeline supports both historical and near-real-time data ingestion, enabling use cases such as sentiment analysis, trend tracking, marketing intelligence, and even integration with applications like Discord bots for real-time content delivery.
 
-# Table of Contents
-
-1. [Data Pipeline Architecture](#data-pipeline-architecture)
-2. [Project Structure](#project-structure)
-3. [Data Source Overview](#data-source-overview)
 
 # Data Pipeline Architecture
 ![Screenshot 2025-04-24 at 3 49 05 PM](https://github.com/user-attachments/assets/995e4fc6-5aa6-4639-9434-2afde4a02602)
