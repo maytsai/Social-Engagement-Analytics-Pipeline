@@ -97,8 +97,21 @@ The entire workflow is orchestrated by Apache Airflow and Celery, enabling smoot
   - Validated that the data loaded correctly using SQL queries.
 <img width="1419" alt="Screenshot 2025-04-24 at 11 11 23 PM" src="https://github.com/user-attachments/assets/d3b69c5d-538e-4250-b11a-a224197b410b" />
 
-# Data Source
-We extracted the following fields from Reddit posts using the Reddit API:
+# Data Source Overview
+
+Reddit is one of the largest online discussion platforms, hosting a wide variety of communities (subreddits) on topics ranging from technology to entertainment to professional discussions. Its official API provides developers with access to a massive stream of user-generated content in near real-time, making it a valuable resource for research, trend analysis, sentiment tracking, and portfolio projects.
+
+This project primarily utilizes Reddit's Posts API via the praw (Python Reddit API Wrapper) library. It extracts metadata from posts in targeted subreddits (e.g., r/dataengineering) such as:
+
+- Post titles and content
+- User engagement metrics (score, comments)
+- Author details
+- Timestamps
+- Post flags (NSFW, spoiler, stickied, edited)
+
+These fields can be used to build pipelines for text analysis, dashboarding, alert systems, and more.
+
+To use the Reddit API, developers must register an application via Reddit's app console and authenticate with a Client ID, Secret, and User Agent. Unlike some government APIs, Reddit’s API enforces rate limits and uses OAuth2 for access control, making proper session handling essential.
 
 <img width="462" alt="Screenshot 2025-04-24 at 11 23 25 PM" src="https://github.com/user-attachments/assets/d15e22bd-c638-4297-b95f-360c933435ad" />
 
