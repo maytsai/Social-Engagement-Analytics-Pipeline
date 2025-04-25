@@ -60,36 +60,36 @@ The entire workflow is orchestrated by Apache Airflow and Celery, enabling smoot
     ├── requirements.txt               # Python dependencies for the project
     └── README.md                      # Project documentation and setup instructions
 
-1. Reddit API Integration
+## 1. Reddit API Integration
 - Objective: Use Reddit's API to extract data, authenticated with a Client ID and Secret Key.
 - Process: Set up a Reddit application to obtain API credentials, then use praw to fetch data from specified subreddits.
 ![redditAPI](https://github.com/user-attachments/assets/412cf7cb-7994-433c-8080-20f2b915f9a3)
 
-2. Apache Airflow Setup
+## 2. Apache Airflow Setup
 - Objective: Orchestrate the ETL process.
 - Process: Install required packages, configure Airflow settings, Configure connections to PostgreSQL (used as metadata DB), and define DAGs for task scheduling.
 ![Screenshot 2025-04-24 at 5 13 12 PM](https://github.com/user-attachments/assets/8a1fef13-b5a2-4365-abd3-1b460e58b64f)
 
-3. Data Storage in AWS S3
+## 3. Data Storage in AWS S3
 - Objective: Clean and stage Reddit data.
 - Process: Clean raw dict data using pandas. Convert it into CSV or Parquet. Upload processed files to Amazon S3.
 <img width="1502" alt="Screenshot 2025-04-24 at 5 35 22 PM" src="https://github.com/user-attachments/assets/d2058460-9fd7-4c19-bfb9-ac72d0442e52" />
 
-4. AWS Glue Integration
+## 4. AWS Glue Integration
 - Objective: Catalog and transform data.
 - Process:
   - Set up a Crawler to scan S3 and populate AWS Glue Data Catalog.
   - Create and run a Glue Job to perform any additional transformation (e.g., merging columns, casting types).
 <img width="1211" alt="Screenshot 2025-04-24 at 10 56 36 PM" src="https://github.com/user-attachments/assets/ebf5606d-8e56-4774-a876-33526a9d78a6" />
 
-5. Querying with Amazon Athena
+## 5. Querying with Amazon Athena
 - Objective: Run SQL queries on the processed data in S3.
 - Process:
   - Define an Athena table using the Glue Catalog.
   - Use SQL queries to filter, aggregate, or join data for insights.
 <img width="1461" alt="Screenshot 2025-04-24 at 11 06 39 PM" src="https://github.com/user-attachments/assets/4c88fa32-cb09-4774-82a2-c861d2f37fed" />
 
-6. Amazon Redshift Integration
+## 6. Amazon Redshift Integration
 - Objective: Load clean data into a centralized data warehouse.
 - Process:
   - Set up a Redshift cluster and schema.
