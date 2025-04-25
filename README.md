@@ -98,18 +98,21 @@ The entire workflow is orchestrated by Apache Airflow and Celery, enabling smoot
 <img width="1419" alt="Screenshot 2025-04-24 at 11 11 23 PM" src="https://github.com/user-attachments/assets/d3b69c5d-538e-4250-b11a-a224197b410b" />
 
 # Data Source
-<img width="462" alt="Screenshot 2025-04-24 at 11 23 25 PM" src="https://github.com/user-attachments/assets/b010a6f4-5ba1-41bd-ba90-f8b73dda2cba" />
+We extracted the following fields from Reddit posts using the Reddit API:
 
-The data that we fetched from Reddit: 
-- id
-- title
-- score
-- num_comments
-- author
-- created_utc
-- url
-- over_18
-- ESS_updated: edited / spoiler / stickied
+- id: Unique identifier for each post
+- title: Title of the Reddit post
+- score: Upvote count
+- num_comments: Total number of comments
+- author: Username of the post creator
+- created_utc: Timestamp when the post was created (UTC)
+- URL: Direct URL to the Reddit post or external content
+- over_18: Whether the post is marked NSFW
+- ESS_updated: Flags indicating:
+  - edited – Whether the post has been edited
+  - spoiler – If the post is marked as a spoiler
+  - stickied – If the post is pinned (stickied) by a moderator
+<img width="462" alt="Screenshot 2025-04-24 at 11 23 25 PM" src="https://github.com/user-attachments/assets/b010a6f4-5ba1-41bd-ba90-f8b73dda2cba" />
 ![Screenshot 2025-04-24 at 11 33 14 PM](https://github.com/user-attachments/assets/48f43995-1394-4eda-a661-74ac0d73b4bf)
 
 
