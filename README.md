@@ -62,9 +62,14 @@ The entire workflow is orchestrated by Apache Airflow and Celery, enabling smoot
 
 2. Apache Airflow Setup
 reddit_dag.py
-Objective: Orchestrate the ETL process.
-- Tools: Apache Airflow with Celery backend and PostgreSQL for metadata storage.
-- Process: Install required packages, configure Airflow settings, and define DAGs for task scheduling.
+- Objective: Orchestrate the ETL process.
+- Process: Install required packages, configure Airflow settings, Configure connections to PostgreSQL (used as metadata DB), and define DAGs for task scheduling.
 ![Screenshot 2025-04-24 at 5 13 12 PM](https://github.com/user-attachments/assets/8a1fef13-b5a2-4365-abd3-1b460e58b64f)
+
+3. Data Storage in AWS S3
+- Objective: Clean and stage Reddit data.
+- Process: Clean raw dict data using pandas. Convert it into CSV or Parquet. Upload processed files to Amazon S3.
+<img width="1502" alt="Screenshot 2025-04-24 at 5 35 22 PM" src="https://github.com/user-attachments/assets/d2058460-9fd7-4c19-bfb9-ac72d0442e52" />
+
 
 
