@@ -7,7 +7,7 @@ This project also demonstrates how Reddit data can be extended into downstream a
 
 # Table of Contents
 1. [Overview](#overview)
-2. [Tech Stack](#tech-stack)
+2. [Tech Stacks](#tech-stacks)
 3. [Data Pipeline Architecture](#data-pipeline-architecture)
 4. [Project Structure](#project-structure)
 5. [Data Source Overview](#data-source-overview)
