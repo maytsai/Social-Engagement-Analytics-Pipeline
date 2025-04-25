@@ -84,6 +84,13 @@ The entire workflow is orchestrated by Apache Airflow and Celery, enabling smoot
   - Use SQL queries to filter, aggregate, or join data for insights.
 <img width="1461" alt="Screenshot 2025-04-24 at 11 06 39 PM" src="https://github.com/user-attachments/assets/4c88fa32-cb09-4774-82a2-c861d2f37fed" />
 
+6. Amazon Redshift Integration
+- Objective: Load clean data into a centralized data warehouse.
+- Process:
+  - Set up a Redshift cluster and schema.
+  - Use the COPY command to pull data from S3 into Redshift.
+  - Validated that the data loaded correctly using SQL queries.
+<img width="1415" alt="Screenshot 2025-04-24 at 11 10 09 PM" src="https://github.com/user-attachments/assets/e92085d9-759a-42da-acb3-76366b416be2" />
 
 
 
