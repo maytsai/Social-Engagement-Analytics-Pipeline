@@ -76,7 +76,7 @@ reddit_dag.py
 - Process:
   - Set up a Crawler to scan S3 and populate AWS Glue Data Catalog.
   - Create and run a Glue Job to perform any additional transformation (e.g., merging columns, casting types).
-<img width="1500" alt="Screenshot 2025-04-24 at 10 55 41 PM" src="https://github.com/user-attachments/assets/9a2e2805-86a9-4fe6-bc4a-08eb6c352f8f" />
+<img width="1211" alt="Screenshot 2025-04-24 at 10 56 36 PM" src="https://github.com/user-attachments/assets/ebf5606d-8e56-4774-a876-33526a9d78a6" />
 
 
 
