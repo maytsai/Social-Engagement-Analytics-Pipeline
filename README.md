@@ -61,7 +61,6 @@ The entire workflow is orchestrated by Apache Airflow and Celery, enabling smoot
 ![redditAPI](https://github.com/user-attachments/assets/412cf7cb-7994-433c-8080-20f2b915f9a3)
 
 2. Apache Airflow Setup
-reddit_dag.py
 - Objective: Orchestrate the ETL process.
 - Process: Install required packages, configure Airflow settings, Configure connections to PostgreSQL (used as metadata DB), and define DAGs for task scheduling.
 ![Screenshot 2025-04-24 at 5 13 12 PM](https://github.com/user-attachments/assets/8a1fef13-b5a2-4365-abd3-1b460e58b64f)
@@ -77,6 +76,13 @@ reddit_dag.py
   - Set up a Crawler to scan S3 and populate AWS Glue Data Catalog.
   - Create and run a Glue Job to perform any additional transformation (e.g., merging columns, casting types).
 <img width="1211" alt="Screenshot 2025-04-24 at 10 56 36 PM" src="https://github.com/user-attachments/assets/ebf5606d-8e56-4774-a876-33526a9d78a6" />
+
+5. Querying with Amazon Athena
+- Objective: Run SQL queries on the processed data in S3.
+- Process:
+  - Define an Athena table using the Glue Catalog.
+  - Use SQL queries to filter, aggregate, or join data for insights.
+<img width="1461" alt="Screenshot 2025-04-24 at 11 06 39 PM" src="https://github.com/user-attachments/assets/4c88fa32-cb09-4774-82a2-c861d2f37fed" />
 
 
 
