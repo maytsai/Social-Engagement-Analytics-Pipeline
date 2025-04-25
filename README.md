@@ -90,7 +90,7 @@ The entire workflow is orchestrated by Apache Airflow and Celery, enabling smoot
   - Set up a Redshift cluster and schema.
   - Use the COPY command to pull data from S3 into Redshift.
   - Validated that the data loaded correctly using SQL queries.
-<img width="1415" alt="Screenshot 2025-04-24 at 11 10 09 PM" src="https://github.com/user-attachments/assets/e92085d9-759a-42da-acb3-76366b416be2" />
+<img width="1419" alt="Screenshot 2025-04-24 at 11 11 23 PM" src="https://github.com/user-attachments/assets/d3b69c5d-538e-4250-b11a-a224197b410b" />
 
 
 
