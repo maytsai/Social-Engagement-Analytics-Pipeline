@@ -112,8 +112,11 @@ We extracted the following fields from Reddit posts using the Reddit API:
   - edited – Whether the post has been edited
   - spoiler – If the post is marked as a spoiler
   - stickied – If the post is pinned (stickied) by a moderator
-<img width="462" alt="Screenshot 2025-04-24 at 11 23 25 PM" src="https://github.com/user-attachments/assets/b010a6f4-5ba1-41bd-ba90-f8b73dda2cba" />
-![Screenshot 2025-04-24 at 11 33 14 PM](https://github.com/user-attachments/assets/48f43995-1394-4eda-a661-74ac0d73b4bf)
+<img width="462" alt="Screenshot 2025-04-24 at 11 23 25 PM" src="https://github.com/user-attachments/assets/d15e22bd-c638-4297-b95f-360c933435ad" />
+
+![Screenshot 2025-04-24 at 11 33 14 PM](https://github.com/user-attachments/assets/7a8e1929-9e72-4ccf-8d4a-a83f6f054c4b)
+
+
 
 
 
