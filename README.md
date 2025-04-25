@@ -71,5 +71,13 @@ reddit_dag.py
 - Process: Clean raw dict data using pandas. Convert it into CSV or Parquet. Upload processed files to Amazon S3.
 <img width="1502" alt="Screenshot 2025-04-24 at 5 35 22 PM" src="https://github.com/user-attachments/assets/d2058460-9fd7-4c19-bfb9-ac72d0442e52" />
 
+4. AWS Glue Integration
+- Objective: Catalog and transform data.
+- Process:
+  - Set up a Crawler to scan S3 and populate AWS Glue Data Catalog.
+  - Create and run a Glue Job to perform any additional transformation (e.g., merging columns, casting types).
+<img width="1500" alt="Screenshot 2025-04-24 at 10 55 41 PM" src="https://github.com/user-attachments/assets/9a2e2805-86a9-4fe6-bc4a-08eb6c352f8f" />
+
+
 
 
