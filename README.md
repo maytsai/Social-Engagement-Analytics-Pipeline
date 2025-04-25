@@ -7,9 +7,10 @@ This project also demonstrates how Reddit data can be extended into downstream a
 
 # Table of Contents
 1. [Overview](#overview)
-2. [Data Pipeline Architecture](#data-pipeline-architecture)
-3. [Project Structure](#project-structure)
-4. [Data Source Overview](#data-source-overview)
+2. [Tech Stack](#tech-stack)
+3. [Data Pipeline Architecture](#data-pipeline-architecture)
+4. [Project Structure](#project-structure)
+5. [Data Source Overview](#data-source-overview)
 
 
 # Overview
@@ -27,6 +28,24 @@ The architecture is designed with the following key components:
 
 This pipeline supports both historical and near-real-time data ingestion, enabling use cases such as sentiment analysis, trend tracking, marketing intelligence, and even integration with applications like Discord bots for real-time content delivery.
 
+# Tech Stacks
+Containerization Platform: Docker
+Docker is used to containerize components of the project, such as PostgreSQL and Apache Airflow. This allows the project to run consistently across different environments (development, testing, and production) by packaging all dependencies into isolated containers. Docker ensures portability and simplifies the deployment process.
+
+Cloud Platform: AWS (Amazon Web Services)
+AWS provides the cloud infrastructure to host the application and store data. AWS's scalable and reliable infrastructure enables efficient data handling and ensures that the project can scale according to demand.
+
+Workflow Orchestration: Apache Airflow
+Apache Airflow is used to orchestrate the end-to-end data pipeline, from fetching data from Reddit’s API to processing and storing it in PostgreSQL. Airflow helps automate scheduling, execution, and monitoring of tasks, ensuring smooth data pipeline operations. DAGs (Directed Acyclic Graphs) define the sequence and dependencies of each task, providing a robust and scalable framework for managing the workflow.
+
+Data Extraction: Reddit API (PRAW)
+PRAW (Python Reddit API Wrapper) is used to interact with Reddit’s API. It enables the extraction of data from various subreddits, such as posts, comments, and user metadata. PRAW abstracts the complexities of the Reddit API, making it easier to fetch relevant data efficiently for analysis.
+
+Data Storage: PostgreSQL
+PostgreSQL is used to store structured data from Reddit, including details about posts, comments, and other metadata like score, number of comments, author, and more. PostgreSQL provides a relational database environment that is easy to query, aggregate, and analyze for generating insights.
+
+Data Processing: Python (Pandas)
+Python, along with Pandas, is used to process and transform the raw data. Pandas allows for cleaning, filtering, and manipulating data before it is loaded into PostgreSQL. It helps structure and prepare the data for analysis by handling missing values, duplicates, and aggregations.
 
 # Data Pipeline Architecture
 ![Screenshot 2025-04-24 at 3 49 05 PM](https://github.com/user-attachments/assets/995e4fc6-5aa6-4639-9434-2afde4a02602)
