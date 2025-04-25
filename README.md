@@ -25,7 +25,7 @@ This pipeline supports both historical and near-real-time data ingestion, enabli
 1. [Data Pipeline Architecture](#data-pipeline-architecture)
 2. [Project Structure](#project-structure)
 
-## Data Pipeline Architecture
+# Data Pipeline Architecture
 ![Screenshot 2025-04-24 at 3 49 05 PM](https://github.com/user-attachments/assets/995e4fc6-5aa6-4639-9434-2afde4a02602)
 
   - Reddit API: Serves as the primary data source, providing access to posts, comments, and subreddit activity.
@@ -38,7 +38,7 @@ This pipeline supports both historical and near-real-time data ingestion, enabli
 
 The entire workflow is orchestrated by Apache Airflow and Celery, enabling smooth coordination between pipeline components and ensuring dependable task execution. The system is containerized using Docker to support consistent, portable, and scalable deployments.
 
-## Project Structure
+# Project Structure
     Reddit-Data-Engineering-Project/
     ├── config/                        # Configuration files for Airflow and other services
     │   └── config.conf.example        # Airflow configuration settings
@@ -97,7 +97,7 @@ The entire workflow is orchestrated by Apache Airflow and Celery, enabling smoot
   - Validated that the data loaded correctly using SQL queries.
 <img width="1419" alt="Screenshot 2025-04-24 at 11 11 23 PM" src="https://github.com/user-attachments/assets/d3b69c5d-538e-4250-b11a-a224197b410b" />
 
-## Data Source Overview
+# Data Source Overview
 
 Reddit is one of the largest online discussion platforms, hosting a wide variety of communities (subreddits) on topics ranging from technology to entertainment to professional discussions. Its official API provides developers with access to a massive stream of user-generated content in near real-time, making it a valuable resource for research, trend analysis, sentiment tracking, and portfolio projects.
 
