@@ -1,8 +1,9 @@
 # Reddit-Data-Engineering-Project 
 
-As active internet users, we constantly interact with online content, and in sectors like retail, marketing, and promotional analytics, staying attuned to customer feedback, opinions, and emerging interests is vital. Reddit—one of the largest and most dynamic online communities—offers a goldmine of consumer insights. For consumer packaged goods (CPG) brands and retailers, monitoring Reddit discussions can surface real-time signals, uncover emerging trends, and provide unfiltered feedback that informs strategic, data-driven decision-making.
+As active internet users, we constantly interact with online content, and in sectors like retail, marketing, and promotional strategy, staying attuned to customer feedback, opinions, and emerging interests is essential. Reddit—one of the largest and most dynamic online communities—serves as a powerful source of consumer insights. For consumer packaged goods (CPG) brands and retailers, monitoring Reddit discussions can uncover real-time signals, surface trending topics, and provide authentic, unfiltered feedback that supports informed, data-driven decision-making.
 
-In addition to traditional analytics, this project also explores the use of Reddit data in downstream applications such as Discord bot integration. By leveraging Reddit’s API, the pipeline fetches, processes, and stores data for features like subreddit monitoring, sentiment analysis, keyword alerts, and content aggregation. These capabilities enable real-time use cases—such as surfacing top posts, tracking community sentiment, or highlighting trending discussions within Discord—making Reddit data more accessible, interactive, and actionable for various user communities.
+This project also demonstrates how Reddit data can be extended into downstream applications such as Discord bot integration. By leveraging Reddit’s API, the data pipeline fetches, processes, and stores post metadata for features like subreddit monitoring, sentiment analysis, keyword alerts, and content aggregation. These capabilities support real-time use cases—such as surfacing top posts, tracking community sentiment, or highlighting trending discussions within Discord—making Reddit data more accessible, interactive, and actionable across various platforms and user communities.
+
 
 # Table of Contents
 1. [Overview](#overview)
@@ -132,8 +133,3 @@ To use the Reddit API, developers must register an application via Reddit's app 
 
 Final table example:
 ![Screenshot 2025-04-24 at 11 33 14 PM](https://github.com/user-attachments/assets/7a8e1929-9e72-4ccf-8d4a-a83f6f054c4b)
-
-
-
-
-
