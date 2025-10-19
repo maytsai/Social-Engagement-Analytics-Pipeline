@@ -1,4 +1,4 @@
-# Real-Time Community Performance Monitoring
+# Social Engagement Analytics Pipeline
 
 As active internet users, we constantly interact with online content, and in sectors like retail, marketing, and promotional strategy, staying attuned to customer feedback, opinions, and emerging interests is essential. Reddit—one of the largest and most dynamic online communities—serves as a powerful source of consumer insights. For consumer packaged goods (CPG) brands and retailers, monitoring Reddit discussions can uncover real-time signals, surface trending topics, and provide authentic, unfiltered feedback that supports informed, data-driven decision-making.
 
